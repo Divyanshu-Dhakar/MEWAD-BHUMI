@@ -105,15 +105,15 @@
 }
 .service-section {
 
-    display: flex;
+  display: flex;
     justify-content: center;
     text-align: center;
-    padding:   4rem;
-    background-color: rgb(242, 243, 253);
+    padding: 5rem;
+    background-color: rgb(249, 253, 209);
 }
 
 .category {
-    width: 90%;
+    width: 70%;
 }
 
 .heading h2 {
@@ -152,6 +152,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 
 
 .chia-section{
@@ -316,7 +317,7 @@
      color: rgb(0, 0, 0);
      font-size: 1.5rem;
  }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .footer>h1{
         font-size: 3rem;
     }
@@ -361,6 +362,7 @@
         margin-bottom: 2rem;
 
     }
+}
     .navbarbody {
         display: flex;
         flex-direction: column;
